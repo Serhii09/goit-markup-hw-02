@@ -1,98 +1,109 @@
+:root {
+    --c-title: #2E2F42;
+--c-text: #434455;
+--c-feetback: #404BBF;
+--c-button-h1: #FFF;
+--c-footer-logo-paragraf: #F4F4FD; 
+--c-hide-title: brown;
+--c-button-back: #4D5AE5;
+--c-hover-button-back: #404BBF;
+}
+
 /* Header */
 .logo-up {
-    color: #2E2F42;
+    color: var(--c-title);
 }
 
 .nav-link {
-    color: #2E2F42;
+    color: var(--c-title);
 }
 
 .nav-link:active {
-color: #404BBF;
+color: var(--c-feetback);
 }
 
 .address-mail {
-    color: #434455;
+    color: var(--c-text);
 }
 
 .address-mail:active {
-    color: #404BBF;
+    color: var(--c-feetback);
 }
 
 .tel-contacts {
-   color: #434455;
+   color: var(--c-text);
 }
 
 /* Main section 1 */
 .hero-section {
-    background-color: #2E2F42;
+    background-color: var(--c-title);
 }
 
 .hero-title {
-    color: #FFF;
+    color: var(--c-button-h1);
 }
 
 .button {
-    color: #FFF;
-    background-color: #4D5AE5;
+    color: var(--c-button-h1);
+    background-color: var(--c-button-back);
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .button:hover {
-    color: #FFF;
-    background-color: #404BBF;
+    color: var(--c-button-h1);
+    background-color: var(--c-hover-button-back);
 }
 
 /* Main section 2 */
 .title-section-second {
-    color: brown;
+    color: var(--c-hide-title);
 }
 
 .title-of-principles {
-    color: #2E2F42;
+    color: var(--c-title);
 }
 
 .text-principles {
-    color: #434455;
+    color: var(--c-text);
 }
 
 /* Main section 3 */
 .title-section-three {
-    color: #2E2F42;
+    color: var(--c-title);
 }
 
 .team-members {
-    color: #2E2F42;
+    color: var(--c-title);
 }
 
 .profession-team-members {
-    color: #434455;
+    color: var(--c-text);
 }
 
 /* Main section 4 */
 .title-section-four {
-    color: #2E2F42;
+    color: var(--c-title);
 }
 
 .functionality {
-    color: #2E2F42;
+    color: var(--c-title);
 }
 
 .type-functionality {
-    color: #434455;
+    color: var(--c-text);
 }
 
 /* Footer */
 .logo-down {
-    color: #F4F4FD;
+    color:var(--c-footer-logo-paragraf);
 }
 
 .background-footer {
-    background-color: #2E2F42;
+    background-color: var(--c-title);
 }
 
 .guideline {
-    color: #F4F4FD;
+    color:var(--c-footer-logo-paragraf);
 }
