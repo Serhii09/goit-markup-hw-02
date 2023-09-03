@@ -43,65 +43,21 @@ text-transform: uppercase;
 color:var(--c-title);
 }
 
-/* Studio */
-.nav-link-studio {
+.nav-link {
 color: var(--c-title);
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em; 
 }
 
-.nav-link-studio:hover {
+.nav-link:hover {
 color: var(--c-feetback);
 }
 
-.nav-link-studio:focus {
+.nav-link:focus {
 color: var(--c-feetback);    
 }
 
-.nav-link-studio:active {
-color: var(--c-feetback);    
-}
-
-/* Portfolio */
-.nav-link-portfolio {
-color: var(--c-title);
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;    
-}
-
-.nav-link-portfolio:hover {
-color: var(--c-feetback);    
-}
-
-.nav-link-portfolio:focus {
-color: var(--c-feetback);
-}
-
-.nav-link-portfolio:active {
-color: var(--c-feetback);    
-}
-
-/* Contacts */
-.nav-link-contacts {
-color: var(--c-title);
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
-.nav-link-contacts:hover {
-color: var(--c-feetback);    
-}
-
-.nav-link-contacts:focus {
-color: var(--c-feetback);
-}
-
-.nav-link-contacts:active {
-color: var(--c-feetback);    
-}
 
 /* Addres */
 .mail-contacts {
@@ -127,22 +83,22 @@ color: var(--c-feetback);
 color: var(--c-feetback);
 }
 
-.tel-number {
+.addres-cotntacts {
 color: var(--c-text);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.tel-number:hover {
+.addres-cotntacts:hover {
 color: var(--c-feetback);
 }
 
-.tel-number:focus {
+.addres-cotntacts:focus {
 color: var(--c-feetback);
 }
 
-.tel-number:active {
+.addres-cotntacts:active {
 color: var(--c-feetback);
 }
 
