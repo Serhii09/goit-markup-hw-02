@@ -64,7 +64,7 @@ color: var(--c-feetback);
 font-style: normal;
 }
 
-.address-mail-contacts {
+.addres-mail-contacts {
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -78,9 +78,6 @@ color: var(--c-feetback);
 color: var(--c-feetback);    
 }
 
-.address-mail-contacts:active {
-color: var(--c-feetback);
-}
 
 /* Main section 1 */
 .hero-section {
@@ -160,20 +157,8 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 }
 
-/* Mark */
-.team-mark {
-background-color: var(--c-team-members-bgr);
-}
-/* Tom */
-.team-tom {
-background-color: var(--c-team-members-bgr);
-}
-/* Camila */
-.team-camila {
-background-color: var(--c-team-members-bgr);
-}
-/* Daniel */
-.team-daniel {
+/* Team names */
+.team-name {
 background-color: var(--c-team-members-bgr);
 }
 
