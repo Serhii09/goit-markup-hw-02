@@ -64,41 +64,22 @@ color: var(--c-feetback);
 font-style: normal;
 }
 
-.address-mail {
+.address-mail-contacts {
 color: var(--c-text);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.address-mail:hover {
+.address-mail-contacts:hover {
 color: var(--c-feetback);
 }
 
-.address-mail:focus {
+.address-mail-contacts:focus {
 color: var(--c-feetback);    
 }
 
-.address-mail:active {
-color: var(--c-feetback);
-}
-
-.addres-cotntacts {
-color: var(--c-text);
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
-.addres-cotntacts:hover {
-color: var(--c-feetback);
-}
-
-.addres-cotntacts:focus {
-color: var(--c-feetback);
-}
-
-.addres-cotntacts:active {
+.address-mail-contacts:active {
 color: var(--c-feetback);
 }
 
@@ -121,7 +102,6 @@ font-family: inherit;
 color: var(--c-button-h1);
 background-color: var(--c-button-back);
 border: none;
-border-radius: 4px;
 cursor: pointer;
 font-size: 16px;
 font-weight: 500;
@@ -189,77 +169,33 @@ letter-spacing: 0.02em;
 .team-mark {
 background-color: var(--c-team-members-bgr);
 }
-
-.team-member-mark {
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
-.profession-team-member-mark {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
 /* Tom */
 .team-tom {
 background-color: var(--c-team-members-bgr);
 }
-
-.team-member-tom {
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
-.profession-team-member-tom {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
 /* Camila */
 .team-camila {
 background-color: var(--c-team-members-bgr);
 }
-
-.team-member-camila {
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
-.profession-team-member-camila {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
 /* Daniel */
 .team-daniel {
 background-color: var(--c-team-members-bgr);
 }
 
-.team-member-daniel {
+.team-member {
 color: var(--c-title);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.02em;    
+letter-spacing: 0.02em;
 }
 
-.profession-team-member-daniel {
+.profession-team-member {
 color: var(--c-text);
 line-height: 1.5;
-letter-spacing: 0.02em;    
+letter-spacing: 0.02em;
 }
+
 
 /* Main section 4 */
 .title-section-four {
@@ -271,8 +207,8 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 }
 
-/* Banking App */
-.functionality-banking-app {
+/* App Marketing */
+.functionality {
 color: var(--c-title);
 font-size: 20px;
 font-weight: 500;
@@ -280,85 +216,10 @@ line-height: 1.2;
 letter-spacing: 0.02em;    
 }
 
-.functionality-banking-app-type {
+.functionality-type {
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
-
-/* Cashless Payment */
-.functionality-cashless-payment {
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
-.functionality-cashless-payment-type {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;    
-}
-
-/* Meditation App */
-.functionality-meditation-app {
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;    
-}
-
-.functionality-meditation-app-type {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;    
-}
-
-/* Taxi Service */
-.functionality-taxi-service {
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;     
-}
-
-.functionality-taxi-service-type {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;     
-}
-
-/* Screen Illustrations */
-.functionality-screen-illustrations {
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
-.functionality-screen-illustrations-type- {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;    
-}
-
-/* Online Courses */
-.functionality-online-courses{
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;    
-}
-
-.functionality-online-courses-type {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;    
 }
 
 /* Footer */
