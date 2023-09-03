@@ -56,6 +56,10 @@ letter-spacing: 0.02em;
 color: var(--c-feetback);
 }
 
+.nav-link-studio:focus {
+color: var(--c-feetback);    
+}
+
 .nav-link-studio:active {
 color: var(--c-feetback);    
 }
@@ -70,6 +74,10 @@ letter-spacing: 0.02em;
 
 .nav-link-portfolio:hover {
 color: var(--c-feetback);    
+}
+
+.nav-link-portfolio:focus {
+color: var(--c-feetback);
 }
 
 .nav-link-portfolio:active {
@@ -88,26 +96,15 @@ letter-spacing: 0.02em;
 color: var(--c-feetback);    
 }
 
+.nav-link-contacts:focus {
+color: var(--c-feetback);
+}
+
 .nav-link-contacts:active {
 color: var(--c-feetback);    
 }
 
-.nav-link {
-color: var(--c-title);
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
-.nav-link:hover {
-color: var(--c-feetback);
-}
-
-.nav-link:active {
-color: var(--c-feetback);
-
-}
-
+/* Addres */
 .mail-contacts {
 font-style: normal;
 }
@@ -123,6 +120,10 @@ letter-spacing: 0.02em;
 color: var(--c-feetback);
 }
 
+.address-mail:focus {
+color: var(--c-feetback);    
+}
+
 .address-mail:active {
 color: var(--c-feetback);
 }
@@ -135,6 +136,10 @@ letter-spacing: 0.02em;
 }
 
 .tel-number:hover {
+color: var(--c-feetback);
+}
+
+.tel-number:focus {
 color: var(--c-feetback);
 }
 
@@ -172,6 +177,10 @@ letter-spacing: 0.04em;
 .button:hover {
 color: var(--c-button-h1);
 background-color: var(--c-hover-button-back);
+}
+
+.button:focus {
+background-color: var(--c-hover-button-back)    
 }
 
 .button:active {
@@ -316,7 +325,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;    
 }
 
-.type-functionality-banking-app {
+.functionality-banking-app-type {
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -331,7 +340,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
-.type-functionality-cashless-payment {
+.functionality-cashless-payment-type {
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;    
@@ -346,7 +355,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;    
 }
 
-.type-functionality-meditation-app {
+.functionality-meditation-app-type {
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;    
@@ -361,7 +370,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;     
 }
 
-.type-functionality-taxi-service {
+.functionality-taxi-service-type {
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;     
@@ -376,7 +385,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
-.type-functionality-screen-illustrations {
+.functionality-screen-illustrations-type- {
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;    
@@ -391,26 +400,10 @@ line-height: 1.2;
 letter-spacing: 0.02em;    
 }
 
-.type-functionality-online-courses {
+.functionality-online-courses-type {
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;    
-}
-
-
-
-.functionality {
-color: var(--c-title);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
-.type-functionality {
-color: var(--c-text);
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
 
 /* Footer */
