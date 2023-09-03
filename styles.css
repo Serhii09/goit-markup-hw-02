@@ -44,6 +44,54 @@ text-transform: uppercase;
 color:var(--c-title);
 }
 
+/* Studio */
+.nav-link-studio {
+color: var(--c-title);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em; 
+}
+
+.nav-link-studio:hover {
+color: var(--c-feetback);
+}
+
+.nav-link-studio:active {
+color: var(--c-feetback);    
+}
+
+/* Portfolio */
+.nav-link-portfolio {
+color: var(--c-title);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;    
+}
+
+.nav-link-portfolio:hover {
+color: var(--c-feetback);    
+}
+
+.nav-link-portfolio:active {
+color: var(--c-feetback);    
+}
+
+/* Contacts */
+.nav-link-contacts {
+color: var(--c-title);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.nav-link-contacts:hover {
+color: var(--c-feetback);    
+}
+
+.nav-link-contacts:active {
+color: var(--c-feetback);    
+}
+
 .nav-link {
 color: var(--c-title);
 font-weight: 500;
@@ -61,7 +109,7 @@ color: var(--c-feetback);
 }
 
 .mail-contacts {
-font-style: normal
+font-style: normal;
 }
 
 .address-mail {
@@ -124,6 +172,10 @@ letter-spacing: 0.04em;
 .button:hover {
 color: var(--c-button-h1);
 background-color: var(--c-hover-button-back);
+}
+
+.button:active {
+background-color: var(--c-hover-button-back);    
 }
 
 /* Main section 2 */
