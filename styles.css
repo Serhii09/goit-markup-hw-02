@@ -8,36 +8,51 @@
 --c-button-back: #4D5AE5;
 --c-hover-button-back: #404BBF;
 --c-logo-accent: #4D5AE5;
+--c-bgr-c-s: #F4F4FD;
+--c-team-members-bgr: #FFF;
 }
 
+
+
 body {
-    color: var(--c-title);
-    font-family: "Roboto" ,sans-serif;
-    font-size: 16px;
+color: var(--c-text);
+font-family: "Roboto" ,sans-serif;
+font-size: 16px;
+background-color: var(--c-button-h1);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* Header */
 .logo-up {
-    color: var(--c-title);
-    font-family: "Raleway";
-    font-size: 18px;
-    font-weight: 700;
-line-height: 1.11;
+color: var(--c-logo-accent);
+font-family: "Raleway" ,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
 letter-spacing: 0.03em;
-text-decoration: none;
 text-transform: uppercase;
 }
 
-.logo-accent {
-    color:var(--c-logo-accent);
+.logo-accent-up {
+color:var(--c-title);
 }
 
 .nav-link {
-    color: var(--c-title);
-    font-weight: 500;
+color: var(--c-title);
+font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-decoration: none;
+}
+
+.nav-link:hover {
+color: var(--c-feetback);
 }
 
 .nav-link:active {
@@ -45,139 +60,321 @@ color: var(--c-feetback);
 
 }
 
+.mail-contacts {
+font-style: normal
+}
+
 .address-mail {
-    color: var(--c-text);
+color: var(--c-text);
+font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-decoration: none;
+}
+
+.address-mail:hover {
+color: var(--c-feetback);
 }
 
 .address-mail:active {
-    color: var(--c-feetback);
+color: var(--c-feetback);
 }
 
-.tel-contacts {
-   color: var(--c-text);
+.tel-number {
+color: var(--c-text);
+font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-decoration: none;
+}
+
+.tel-number:hover {
+color: var(--c-feetback);
+}
+
+.tel-number:active {
+color: var(--c-feetback);
 }
 
 /* Main section 1 */
 .hero-section {
-    background-color: var(--c-title);
+background-color: var(--c-title);
 }
 
 .hero-title {
-    color: var(--c-button-h1);
-    font-size: 56px;
+text-align: center;
+color: var(--c-button-h1);
+font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 }
 
 .button {
-    font-family: inherit;
-    color: var(--c-button-h1);
-    background-color: var(--c-button-back);
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+font-family: inherit;
+color: var(--c-button-h1);
+background-color: var(--c-button-back);
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.04em;
+letter-spacing: 0.04em
 }
 
 .button:hover {
-    color: var(--c-button-h1);
-    background-color: var(--c-hover-button-back);
+color: var(--c-button-h1);
+color: var(--c-button-h1);
+background-color: var(--c-hover-button-back);
 }
 
 /* Main section 2 */
 .title-visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 .title-of-principles {
-    color: var(--c-title);
-    font-size: 20px;
+color: var(--c-title);
+font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
 .text-principles {
-    color: var(--c-text);
+color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
 /* Main section 3 */
+.section-three {
+background-color: var(--c-bgr-c-s);
+}
+
 .title-section-three {
-    color: var(--c-title);
-    font-size: 36px;
+text-align: center;
+text-transform: capitalize;
+color: var(--c-title);
+font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 }
 
-.team-members {
-    color: var(--c-title);
-    font-size: 20px;
+/* Mark */
+.team-mark {
+background-color: var(--c-team-members-bgr);
+}
+
+.team-member-mark {
+color: var(--c-title);
+font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
-.profession-team-members {
-    color: var(--c-text);
+.profession-team-member-mark {
+color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+/* Tom */
+.team-tom {
+background-color: var(--c-team-members-bgr);
+}
+
+.team-member-tom {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.profession-team-member-tom {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Camila */
+.team-camila {
+background-color: var(--c-team-members-bgr);
+}
+
+.team-member-camila {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.profession-team-member-camila {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Daniel */
+.team-daniel {
+background-color: var(--c-team-members-bgr);
+}
+
+.team-member-daniel {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;    
+}
+
+.profession-team-member-daniel {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;    
+}
+
 /* Main section 4 */
 .title-section-four {
-    color: var(--c-title);
-    font-size: 36px;
+text-align: center;
+color: var(--c-title);
+font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 }
 
+/* Banking App */
+.functionality-banking-app {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;    
+}
+
+.type-functionality-banking-app {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Cashless Payment */
+.functionality-cashless-payment {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.type-functionality-cashless-payment {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;    
+}
+
+/* Meditation App */
+.functionality-meditation-app {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;    
+}
+
+.type-functionality-meditation-app {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;    
+}
+
+/* Taxi Service */
+.functionality-taxi-service {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;     
+}
+
+.type-functionality-taxi-service {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;     
+}
+
+/* Screen Illustrations */
+.functionality-screen-illustrations {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.type-functionality-screen-illustrations {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;    
+}
+
+/* Online Courses */
+.functionality-online-courses{
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;    
+}
+
+.type-functionality-online-courses {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;    
+}
+
+
+
 .functionality {
-    color: var(--c-title);
-    font-size: 20px;
+color: var(--c-title);
+font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
 .type-functionality {
-    color: var(--c-text);
+color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
 /* Footer */
 .logo-down {
-    color:var(--c-footer-logo-paragraf);
-       font-family: "Raleway";
-    font-size: 18px;
-    font-weight: 700;
-line-height: 1.11;
+color:var(--c-logo-accent);
+font-family: "Raleway" ,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
 letter-spacing: 0.03em;
-text-decoration: none;
 text-transform: uppercase;
+}
 
+.logo-accent-down {
+    color: var(--c-footer-logo-paragraf);
 }
 
 .background-footer {
