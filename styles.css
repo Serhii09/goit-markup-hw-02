@@ -115,14 +115,13 @@ background-color: var(--c-button-back);
 border: none;
 border-radius: 4px;
 cursor: pointer;
-font-size: 16px
+font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.04em
+letter-spacing: 0.04em;
 }
 
 .button:hover {
-color: var(--c-button-h1);
 color: var(--c-button-h1);
 background-color: var(--c-hover-button-back);
 }
