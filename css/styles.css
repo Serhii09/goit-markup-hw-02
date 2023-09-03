@@ -70,11 +70,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.address-mail-contacts:hover {
+.addres-mail-contacts:hover {
 color: var(--c-feetback);
 }
 
-.address-mail-contacts:focus {
+.addres-mail-contacts:focus {
 color: var(--c-feetback);    
 }
 
